@@ -12,11 +12,8 @@ class MyDocument extends Document {
             sizes="192x192"
             href="/icons/icon-192x192.png"
           />
-          <link
-            rel="apple-touch-icon"
-            sizes="512x512"
-            href="/icons/icon-512x512.png"
-          />
+          <link rel="icon" href="/favicon/favicon.ico" />
+          <title>Contato da Rádio Novo Tempo</title>
           <meta name="theme-color" content="#000000" />
         </Head>
         <body>
