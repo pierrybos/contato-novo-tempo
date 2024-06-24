@@ -1,0 +1,74 @@
+body {
+  background: #f4f4f6;
+  color: #1e3666;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.row h3 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.row p {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+#displayRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  margin-top: 1.2em;
+}
+
+input#targetUrl {
+  margin-top: 1.5em;
+  color: #1e3666;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+input#targetUrl:hover {
+  border: 3px;
+}
+
+.titleTimer p {
+  margin-bottom: 0;
+  font-size: 1.8em;
+}
+
+.logo.center {
+  text-align: right;
+}
+
+.qrcode.center {
+  text-align: left;
+}
+
+.row.titles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.visitasTitulo {
+  color: #fa6767;
+}
+
+.visible {
+  display: block; /* ou qualquer outra propriedade de exibição que você preferir */
+}
+
+div.hidden {
+  display: none !important;
+}
+
+div.painelControll {
+  background: white;
+}
