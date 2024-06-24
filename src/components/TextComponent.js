@@ -4,7 +4,7 @@ export default ({ title, showText, textSize, textColor, subtitle }) => {
       className="textSide"
       style={{
         display: showText ? "block" : "none",
-        fontSize: `${textSize}em`,
+        fontSize: `1.5em`,
         color: `rgba(${textColor.r},${textColor.g},${textColor.b},${textColor.a})`,
       }}
     >

@@ -48,7 +48,7 @@ export default ({
             display: `${showImage ? "block" : "none"}`,
           }}
         >
-          <Image src={img} width={imageSize} />
+          <Image src={img} width="135" />
         </div>
         <div
           className="qrSide"
