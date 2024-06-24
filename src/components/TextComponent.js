@@ -8,8 +8,8 @@ export default ({ title, showText, textSize, textColor, subtitle }) => {
         color: `rgba(${textColor.r},${textColor.g},${textColor.b},${textColor.a})`,
       }}
     >
-      <h3>{title}</h3>
-      <p>{subtitle}</p>
+      <h3>Contato da Rádio Novo Tempo</h3>
+      <p>Use a câmera do seu celular</p>
     </div>
   );
 };
